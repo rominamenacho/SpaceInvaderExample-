@@ -48,3 +48,12 @@
 *.tga filter=lfs diff=lfs merge=lfs -text
 *.tif filter=lfs diff=lfs merge=lfs -text
 *.tiff filter=lfs diff=lfs merge=lfs -text
+
+
+# Collapse Unity-generated files on GitHub
+
+_.asset linguist-generated
+_.mat linguist-generated
+_.meta linguist-generated
+_.prefab linguist-generated
+\*.unity linguist-generated
